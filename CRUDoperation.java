@@ -31,7 +31,7 @@ public class CRUDoperation {
 
 	}
 
-	public static boolean update() throws Exception{
+	public static boolean updateuser() throws Exception{
 		boolean rowsupdated;
 		try(Connection connection=ConnectDatabase.getConnection();
 				PreparedStatement preparedStatement= connection.prepareStatement(query2);)	{		
